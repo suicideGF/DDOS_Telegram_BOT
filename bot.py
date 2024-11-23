@@ -15,14 +15,14 @@ import concurrent.futures
 
 
 #Telegram token
-token = os.getenv('TELEGRAM_TOKEN')
+token = os.getenv('7565722697:AAGq8hf5UFF7D6QObBAYHFfAM7rrzaM42vA')
 bot_number = os.getenv('NUM')
 updater = Updater(token,use_context=True)
 s = 360
 
 
 def start(update: Update, context: CallbackContext):
-  update.message.reply_text(f"DDOS BOT {bot_number}")
+  update.message.reply_text(f"DDOS BOT {7565722697}")
   
   
 def tmps(update: Update, context: CallbackContext):
